@@ -77,11 +77,11 @@ const vldAddTable = () => {
     err[0] = true;
     err[1] = 'Falta que pongas el titulo';
     return err;
-  } else if (inTitle.value.length < 5) {
+  } else if (inTitle.value.length < 3) {
     err[0] = true;
     err[1] = 'El titulo no puede tener menos de 5 caracteres';
     return err;
-  } else if (inTitle.value.length > 55) {
+  } else if (inTitle.value.length > 57) {
     err[0] = true;
     err[1] = 'El titulo no puede tener más de 55 caracteres';
     return err;
