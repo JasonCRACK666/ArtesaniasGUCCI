@@ -1,0 +1,16 @@
+{
+  "name": "appshop",
+  "version": "1.0.0",
+  "description": "Un proyecto de tienda online para artesanos, para el area de EPT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Emerzon Javier Kolki Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "nodemon": "^2.0.12"
+  }
+}

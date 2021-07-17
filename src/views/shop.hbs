@@ -1,0 +1,76 @@
+
+<nav class="navBar">
+  <img class="logo" src="/img/Group 4.svg" alt="logo">
+  <ul class="options">
+    <li>
+      <span class="tienda">Tienda <i class="fas fa-shopping-cart"></i></span>
+    </li>
+    <li>
+      <span id="add" class="add">Publicar <i class="fas fa-plus"></i></span>
+    </li>
+    <li>
+      <span id="switch" class="switch"><i id="switch" class="fas fa-adjust"></i></span>
+    </li>
+  </ul>
+</nav>
+{{!-- Tabla de productos --}}
+<div class="products">
+  <table id="table" class="table">
+    <tbody>
+      <tr id="100">
+        <th class="title">Bandeja de ceramica</th>
+        <th id="precio" class="precio">$25</th>
+        <th class="content">qwer qwerqwer qwerqwer qwerqwe rqwerqwerqwer qwerqwerqwer qwrqwerqwer</th>
+        <td>
+          <button id="buy100" class="buy" ><i class="fas fa-cart-arrow-down"></i></button>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr id="200">
+        <td class="title">Maceta con detalles Incas</td>
+        <td id="precio" class="precio">$25</td>
+        <td class="content">qwer qwerqw erqwer qwerq werqwerqwerqw erqwerqwerqw erqwerqwrqw erqwer</td>
+        <td>
+          <button id="buy200" class="buy" ><i class="fas fa-cart-arrow-down"></i></button>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr id="300">
+        <td class="title">Maceta con detalles Incas</td>
+        <td id="precio" class="precio">$25</td>
+        <td class="content">qwer qwerqw erqwer qwerq werqwerqwerqw erqwerqwerqw erqwerqwrqw erqwer</td>
+        <td>
+          <button id="buy300" class="buy" ><i class="fas fa-cart-arrow-down"></i></button>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr id="400">
+        <td class="title">Maceta con detalles Incas</td>
+        <td id="precio" class="precio">$25</td>
+        <td class="content">qwer qwerqw erqwer qwerq werqwerqwerqw erqwerqwerqw erqwerqwrqw erqwer</td>
+        <td>
+          <button id="buy400" class="buy"><i class="fas fa-cart-arrow-down"></i></button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+{{!-- formulario para los productos --}}
+<div id="formProduct" class="formProduct">
+  <div class="close">
+    <i id="close" class="fas fa-times"></i>
+  </div>
+  <div class="formTitle">
+    <h2>AÑADIR PRODUCTO</h2>
+  </div>
+  <div class="inputs">
+    <input id="inTitle" type="text" placeholder="TITULO">
+    <input id="inPrecio" type="number" placeholder="PRECIO">
+    <textarea id="inDescription" placeholder="DESCRIPCIÓN"></textarea>
+    <button class="addProduct" id="addProduct">PUBLICAR</button>
+  </div>
+  <div id="resultado" class="resultado"></div>
+</div>
