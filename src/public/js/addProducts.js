@@ -81,9 +81,9 @@ const vldAddTable = () => {
     err[0] = true;
     err[1] = 'El titulo no puede tener menos de 5 caracteres';
     return err;
-  } else if (inTitle.value.length > 30) {
+  } else if (inTitle.value.length > 55) {
     err[0] = true;
-    err[1] = 'El titulo no puede tener más de 30 caracteres';
+    err[1] = 'El titulo no puede tener más de 55 caracteres';
     return err;
   } else if (inPrecio.value === "") {
     err[0] = true;
